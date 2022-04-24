@@ -16,6 +16,9 @@ function Contact() {
                         <label className="text-gray-300  font-semibold mb-2 ">Mensaje</label>
                         <textarea maxLength="1048576" className=" text-white py-6 border bg-black border-gray-600 px-8 min-h-[16em] rounded outline-none hover:border-yellow-100 " />   
                     </div>
+                    <div className="flex justify-center">
+                        <button className="border border-yellow-200 rounded text-yellow-200 px-6 py-2" >Enviar</button>
+                    </div>
                 </form>
             </div>
         </div>
