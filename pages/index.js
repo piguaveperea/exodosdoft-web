@@ -12,13 +12,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>ExodoSoft</title>
-        <meta></meta>
       </Head>
       <Banner />
       <Services />
       <About />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

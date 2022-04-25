@@ -1,6 +1,6 @@
 function About(){
     return(
-        <div className="container mx-auto" >
+        <div className="container mx-auto p-10" >
             <h1 className="text-4xl lg:text-5xl font-bold" >Sobre Nosotros</h1>
             <p>
                 Somos una empresa  en el desarrollo y diseño de sitios web. 
