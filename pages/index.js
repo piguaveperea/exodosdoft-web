@@ -1,7 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
+import About from '../components/About'
 import Banner from '../components/Banner'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer'
+import Services from '../components/Services'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,8 +14,11 @@ export default function Home() {
         <title>ExodoSoft</title>
         <meta></meta>
       </Head>
-      <Banner/>
-      <Contact/>
+      <Banner />
+      <Services />
+      <About />
+      <Contact />
+      <Footer/>
     </div>
   )
 }
